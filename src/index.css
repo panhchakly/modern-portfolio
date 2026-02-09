@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+.container-responsive {
     /* Media query for screens smaller than 768px */
     @media screen and (max-width: 768px) {
         padding-top: 1rem;

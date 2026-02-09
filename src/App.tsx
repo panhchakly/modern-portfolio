@@ -106,7 +106,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <Navigation />
 
-      <main className="pt-20 md:pt-24 pb-20 md:pb-8 px-4 md:px-6">
+      <main className="container pt-20 md:pt-24 pb-20 md:pb-8 px-4 md:px-6">
         <div className="max-w-6xl mx-auto">
             <section className="mb-20 mt-8" id="about">
             <div className="bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl p-8 md:p-12 shadow-2xl">

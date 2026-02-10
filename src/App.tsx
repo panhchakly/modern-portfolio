@@ -13,7 +13,7 @@ function App() {
     {
       category: 'Backend Development',
       icon: Database,
-      tech: ['Node.js', 'Nest.js', 'PHP', 'Laravel', 'Yii2', 'Python', 'REST APIs', 'MongoDB', 'MySQL']
+      tech: ['Node.js', 'Nest.js', 'PHP', 'Laravel', 'Yii2', 'Python', 'REST APIs', 'MongoDB', 'MySQL', 'Redis', 'Firebase']
     },
     {
       category: 'Software Architecture',

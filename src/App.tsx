@@ -13,12 +13,12 @@ function App() {
     {
       category: 'Backend Development',
       icon: Database,
-      tech: ['Node.js', 'Nest.js', 'PHP', 'Laravel', 'Yii2', 'Python', 'REST APIs', 'MongoDB', 'MySQL', 'Redis', 'Firebase']
+      tech: ['Node.js', 'Nest.js', 'PHP', 'Laravel', 'Yii2', 'Python', 'REST APIs', 'Redis', 'Firebase', 'MongoDB', 'MySQL']
     },
     {
       category: 'Software Architecture',
       icon: Settings,
-      tech: ['System Design', 'API Design', 'Scalability', 'Performance Optimization', 'Security Best Practices']
+      tech: ['System Design', 'API Design', 'Scalability', 'Security Best Practices', 'Performance Optimization']
     }
   ];
 

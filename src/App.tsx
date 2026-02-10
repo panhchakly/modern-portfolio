@@ -90,7 +90,7 @@ function App() {
     {
       title: 'E-Commerce Platform',
       description: 'Full-stack marketplace with real-time inventory, payment processing, and admin dashboard.',
-      tags: ['Laravel', 'ABA Pay', 'MySQL']
+      tags: ['Laravel', 'WordPress', 'ABA Pay', 'MySQL']
     },
     {
       title: 'Custom WordPress Theme & Plugin Development',
@@ -100,7 +100,7 @@ function App() {
     {
       title: 'Shopify & FB Commerce Integration',
       description: 'Integration of Shopify store with Facebook Commerce for seamless product listing and order management.',
-      tags: ['Shopify', 'Facebook Commerce', 'MySQL']
+      tags: ['Shopify', 'Facebook Commerce']
     }
   ];
 

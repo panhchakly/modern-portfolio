@@ -29,14 +29,15 @@ function App() {
       period: '2023 - Present',
       description: 'Developed and maintained multiple iMT system modules, architected third-party integration APIs, implemented FTP/Telnet functions, designed MySQL Views and Stored Procedures, and built automated daily reporting system with Mail and SMS notifications.',
       achievements: [
-        'Developed and maintained multiple modules in iMT system for managing mobile and internet services',
-        'Developed APIs for third-party integrations and system connectivity',
-        'Integrated third-party APIs for alarm scanning, equipment information retrieval, and work order execution',
-        'Implemented FTP-based file transfer functions for server uploads and third-party downloads',
-        'Created Telnet-based functions to retrieve data from network devices',
-        'Processed and transformed raw data files for database imports',
-        'Built automated daily reporting system with Mail and SMS notifications',
-        'Designed MySQL Views, Stored Procedures, Events, and Triggers for data management'
+        'Designed, developed, and maintained multiple modules within the iMT system (In-house software), enabling efficient management of mobile and internet services.',
+        'Engineered and deployed RESTful APIs to support third-party integrations and enhance system interoperability.',
+        'Integrated external APIs for alarm scanning, equipment data retrieval, and automated work order execution, improving operational efficiency.',
+        'Implemented FTP-based file transfer solutions for secure server uploads and third-party downloads.',
+        'Developed Telnet-based functions to extract and process data from network devices.',
+        'Automated data ingestion pipelines, transforming raw files into structured formats for seamless database imports.',
+        'Built a daily reporting system with automated email and SMS notifications, ensuring timely delivery of critical insights.',
+        'Designed and optimized MySQL Views, Stored Procedures, Events, and Triggers to streamline data management and improve system performance.',
+        'Applied best practices in system design, scalability, security, and performance optimization, supporting enterprise-grade software architecture.'
       ]
     },
     {
@@ -45,14 +46,15 @@ function App() {
       period: '2021 - 2023',
       description: 'Designed and implemented APIs for web and mobile platforms, developed Lucky draw and referral program features, integrated third-party APIs for service plan purchases and subscriptions, and maintained multiple modules across web admin and web portal platforms.',
       achievements: [
-      'Developed and maintained APIs for integrations with web admin, web portal, and mobile application',
-      'Built APIs for Lucky draw and referral program features',
-      'Integrated third-party APIs to enable service plan purchases and subscriptions for mobile applications',
-      'Developed and maintained multiple modules across web admin and web portal platforms',
-      'Resolved dealer complaints and issues related to SIM card management',
-      'Implemented real-time notifications for user activities and system events',
-      'Integrated google analytics API to track user interactions and generate reports',
-      'Integrated google sheets Apps Script to sync data with google calendar'
+      'Designed, developed, and maintained RESTful APIs to support integrations across web admin, web portal, and mobile applications.',
+      'Built backend services for Lucky Draw and Referral Program features, enhancing customer engagement and retention.',
+      'Integrated third-party APIs to enable service plan purchases and subscriptions directly through mobile applications.',
+      'Developed and maintained multiple backend modules across web admin and web portal platforms, ensuring system reliability and scalability.',
+      'Provided operational support for SIM card management, resolving technical issues and improving service continuity.',
+      'Implemented real-time notification systems for user activities and system events, improving responsiveness and user experience.',
+      'Integrated Google Analytics API to track user interactions and generate actionable insights for business reporting.',
+      'Automated workflows by integrating Google Sheets Apps Script with Google Calendar, streamlining data synchronization and scheduling.'
+
       ]
     },
     {
@@ -61,12 +63,13 @@ function App() {
       period: '2019 - 2021',
       description: 'Built responsive web applications and internal tools, developed attendance tracking system with real-time features, and optimized website performance and security.',
       achievements: [
-      'Developed multiple websites for various clients with responsive design and modern UI/UX',
-      'Developed and maintained attendance web application with real-time tracking and reporting features',
-      'Performed performance optimization and security audits on client websites',
-      'Created web tools to support internal operations',
-      'Customized WordPress themes and plugins for client projects',
-      'Integrated Shopify stores with Facebook Commerce for seamless product listing and order management'
+        'Designed and developed multiple responsive websites for diverse clients, delivering modern UI/UX experiences aligned with industry standards.',
+        'Built and maintained an attendance web application with real-time tracking and automated reporting features, improving workforce management efficiency.',
+        'Conducted performance optimization and security audits on client websites, ensuring fast load times and adherence to best practices.',
+        'Developed custom web tools to support internal operations, streamlining workflows and enhancing productivity.',
+        'Customized WordPress themes and plugins to meet client-specific requirements, enabling tailored functionality and branding.',
+        'Integrated Shopify stores with Facebook Commerce, enabling seamless product listing synchronization and order management across platforms.'
+
     ]
     }
   ];

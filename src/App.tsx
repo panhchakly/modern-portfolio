@@ -18,7 +18,7 @@ function App() {
     {
       category: 'Software Architecture',
       icon: Settings,
-      tech: ['System Design', 'Microservices', 'CI/CD', 'AWS', 'Docker']
+      tech: ['System Design', 'API Design', 'Scalability', 'Performance Optimization', 'Security Best Practices']
     }
   ];
 
@@ -49,7 +49,10 @@ function App() {
       'Built APIs for Lucky draw and referral program features',
       'Integrated third-party APIs to enable service plan purchases and subscriptions for mobile applications',
       'Developed and maintained multiple modules across web admin and web portal platforms',
-      'Resolved dealer complaints and issues related to SIM card management'
+      'Resolved dealer complaints and issues related to SIM card management',
+      'Implemented real-time notifications for user activities and system events',
+      'Integrated google analytics API to track user interactions and generate reports',
+      'Integrated google sheets Apps Script to sync data with google calendar'
       ]
     },
     {
@@ -61,7 +64,9 @@ function App() {
       'Developed multiple websites for various clients with responsive design and modern UI/UX',
       'Developed and maintained attendance web application with real-time tracking and reporting features',
       'Performed performance optimization and security audits on client websites',
-      'Created web tools to support internal operations'
+      'Created web tools to support internal operations',
+      'Customized WordPress themes and plugins for client projects',
+      'Integrated Shopify stores with Facebook Commerce for seamless product listing and order management'
     ]
     }
   ];

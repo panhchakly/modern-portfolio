@@ -13,7 +13,7 @@ function App() {
     {
       category: 'Backend Development',
       icon: Database,
-      tech: ['Node.js', 'Nest.js', 'PHP', 'Python', 'REST APIs', 'MongoDB', 'MySQL']
+      tech: ['Node.js', 'Nest.js', 'PHP', 'Laravel', 'Yii2', 'Python', 'REST APIs', 'MongoDB', 'MySQL']
     },
     {
       category: 'Software Architecture',
@@ -66,21 +66,36 @@ function App() {
     }
   ];
 
-  const projects = [
+  const feature_projects = [
+    {
+      title: 'iMT System',
+      description: 'Comprehensive management system for mobile and internet services, including third-party integrations, FTP/Telnet functions, and automated reporting.',
+      tags: ['PHP', 'Python', 'MySQL', 'FTP', 'Telnet', 'Mail', 'SMS', 'API Integration']
+    },
+    {
+      title: 'Lucky Draw & Referral Program',
+      description: 'Real-time lucky draw and referral program features for mobile applications.',
+      tags: ['Node.js', 'Nest.js', 'REST APIs', 'Third-Party API Integration', 'MongoDB']
+    },
+    {
+      title: 'Attendance Tracking System',
+      description: 'Real-time attendance system for employee tracking and monitoring.',
+      tags: ['Yii2', 'MySQL', 'Telegram Bot']
+    },
     {
       title: 'E-Commerce Platform',
       description: 'Full-stack marketplace with real-time inventory, payment processing, and admin dashboard.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe']
+      tags: ['Laravel', 'ABA Pay', 'MySQL']
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'Real-time data visualization tool processing millions of data points with interactive charts.',
-      tags: ['Vue.js', 'D3.js', 'Python', 'Flask']
+      title: 'Custom WordPress Theme & Plugin Development',
+      description: 'Custom WordPress theme and plugin development for various clients.',
+      tags: ['WordPress', 'PHP', 'MySQL']
     },
     {
-      title: 'Social Collaboration App',
-      description: 'Scalable platform enabling teams to collaborate, with WebSocket-based real-time updates.',
-      tags: ['Next.js', 'TypeScript', 'WebSocket']
+      title: 'Shopify & FB Commerce Integration',
+      description: 'Integration of Shopify store with Facebook Commerce for seamless product listing and order management.',
+      tags: ['Shopify', 'Facebook Commerce', 'MySQL']
     }
   ];
 
@@ -218,9 +233,9 @@ function App() {
           </section>
 
           <section className="mb-20" id="projects">
-            <h2 className="text-3xl font-bold text-white mb-10">Personal Projects</h2>
+            <h2 className="text-3xl font-bold text-white mb-10">Featured Projects</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {projects.map((project, index) => (
+              {feature_projects.map((project, index) => (
                 <div
                   key={index}
                   className="bg-gray-800 border border-gray-700 rounded-2xl p-8 hover:border-blue-500 transition-all duration-300 group"
@@ -229,7 +244,7 @@ function App() {
                     <h3 className="text-xl font-semibold text-white flex-1">
                       {project.title}
                     </h3>
-                    <ExternalLink className="text-gray-400 group-hover:text-blue-400 transition-colors flex-shrink-0 ml-2" size={20} />
+                    <ExternalLink className="hidden text-gray-400 group-hover:text-blue-400 transition-colors flex-shrink-0 ml-2" size={20} />
                   </div>
                   <p className="text-gray-300 mb-6">
                     {project.description}
